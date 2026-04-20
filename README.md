@@ -8,30 +8,6 @@
 Esta atividade tem como objetivo avaliar competências técnicas relacionadas a **Machine Learning**, **Visão Computacional** e **Otimização de modelos para sistemas embarcados (Edge AI)**, a partir da aplicação prática dos conhecimentos adquiridos nos cursos EAD da etapa anterior.
 
 ---
-## Como executar o projeto
-
-### Pré-requisitos
-- Ter o Docker instalado
-
-### Passo 1: Build da imagem
-
-```bash
-docker build -t mnist-edge-ai .
-```
-### Passo 2: Executar o projeto
-
-#### Windows (CMD)
-```bash
-docker run --rm -v "%cd%:/app" mnist-edge-ai
-```
-#### Powershell 
-```bash
-docker run --rm -v ${PWD}:/app mnist-edge-ai
-```
-#### Linux/mac
-```bash
-docker run --rm -v $(pwd):/app mnist-edge-ai
-```
 
 ### 1️⃣ Resumo da Arquitetura do Modelo
 Estrutura de diretórios do projeto: 

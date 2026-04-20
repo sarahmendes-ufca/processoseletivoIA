@@ -41,5 +41,4 @@ model.fit(
 loss, acc = model.evaluate(x_test, y_test)
 print(f"Acurácia final: {acc:.4f}")
 
-os.makedirs("models", exist_ok=True)
-model.save("models/model.h5")
+model.save("model.h5")
