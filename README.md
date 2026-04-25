@@ -19,9 +19,8 @@ processoseletivoIA/
 │       └── ci.yml            
 ├── .devcontainer/            
 │   └── devcontainer.json
-├── models/
-│   ├── model.h5
-│   └── model.tflite
+├── model.h5
+├── model.tflite
 ├── train_model.py
 ├── optimize_model.py
 ├── requirements.txt
