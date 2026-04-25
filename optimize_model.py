@@ -9,7 +9,6 @@ converter.optimizations = [tf.lite.Optimize.DEFAULT]
 
 tflite_model = converter.convert()
 
-os.makedirs("models", exist_ok=True)
 
 with open("model.tflite", "wb") as f:
     f.write(tflite_model)
