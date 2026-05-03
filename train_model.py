@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
-import os
 
 tf.config.set_visible_devices([], 'GPU')
 

@@ -1,5 +1,4 @@
 import tensorflow as tf
-import os
 
 model = tf.keras.models.load_model("model.h5")
 
