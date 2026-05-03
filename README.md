@@ -1,7 +1,5 @@
 # 📝 Relatório final
 
---- 
-
 > 👤 **Informações**
 > - **Nome**: Sarah Mendes Teles 
 > - **Curso**: Engenharia de Software 
@@ -118,7 +116,6 @@ Esse formato permite fácil reutilização e posterior conversão.
 
 > *TensorFlow: >=2.12*
 
----
 
 ## 3️⃣ Técnica de Otimização do Modelo
 
@@ -163,10 +160,10 @@ A proximidade entre a acurácia de treino e validação sugere:
 
 Mesmo com um número reduzido de épocas e uma arquitetura simplificada, o modelo apresentou desempenho consistente, reforçando sua eficiência.
 
-
+---
 ### 2. ⚖️ Comparação: Tamanho x desempenho
 | **Modelo** | **Tamanho**| **Acurácia** | | **Eficiência** |
-| :--- | :---: | | :---: | ---: |
+| :--- | :---: | :---: | ---: |
 | Modelo original (.h5) | ~186 KB | ~97% | | Alto custo relativo |
 | Modelo otimizado (.tflite) | ~18 KB | ~96–97% | | Alta eficiência |
 
@@ -182,6 +179,7 @@ Isso evidencia um trade-off altamente favorável:
 - Pequena (ou desprezível) perda de precisão
 - Grande ganho em eficiência, portabilidade e uso de memória
 
+---
 ### 3. 🚀 Ganho com Otimização
 A conversão para TensorFlow Lite com quantização permitiu:
 
