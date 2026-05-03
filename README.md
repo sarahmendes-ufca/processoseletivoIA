@@ -162,8 +162,9 @@ Mesmo com um número reduzido de épocas e uma arquitetura simplificada, o model
 
 ---
 ### 2. ⚖️ Comparação: Tamanho x desempenho
-| **Modelo** | **Tamanho**| **Acurácia** | | **Eficiência** |
-| :--- | :---: | :---: | ---: |
+
+| **Modelo** | **Tamanho**| **Acurácia** | **Eficiência** |
+| :--------------------- | :------: | :---: | ------------------: |
 | Modelo original (.h5) | ~186 KB | ~97% | | Alto custo relativo |
 | Modelo otimizado (.tflite) | ~18 KB | ~96–97% | | Alta eficiência |
 
